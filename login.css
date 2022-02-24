@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans';
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393E46;
+}
+
+#container{
+    background-color: white;
+    border-radius: 5px;
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#google{
+    width: 20px;
+    height: 20px;
+}
+#container div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container div span{
+    position: relative;
+    left: -10px;
+    text-align: center;
+    width: 100%;
+}
+#container div span a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+
+}
+#container form{
+    width: 80%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container form input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+   background-color: #eeecec;
+}
+#container form input[type="button"]{
+    background-color: #548CFF;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#container form a{
+    position: relative;
+    left: 5px;
+    text-decoration: none;
+    width: 100%;
+    text-align: start;
+    margin-bottom: 10px;
+    color: black;
+    letter-spacing: 2px;
+
+}
+hr{
+    margin-bottom: 15px;
+    width: 80%;
+}
+#alert{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    display: none;
+}
+#alert .basarili{
+    font-size: 40px;
+    color: green;
+    margin-bottom: 10px;
+}#alert .basarisiz{
+    font-size: 40px;
+    color: red;
+    margin-bottom: 10px;
+}
+#alert button{
+    background-color: #548CFF;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.opacity{
+    opacity: 0.1;
+}
