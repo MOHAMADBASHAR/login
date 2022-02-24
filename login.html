@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>log in</title>
+</head>
+<body>
+        <div id="container">
+            <h1>
+                DESIGN
+            </h1>
+            <form>
+                <input type="email" name="email" id="userEmail" placeholder="EMAIL" value="muhammed@gmail.com">
+                <input type="password" name="password" id="userPassword" placeholder="PASSWORD" value="123">
+                <a href="#">Forget your password?</a>
+                <input type="button" value="LOG IN" id="button">
+            </form>
+            <hr>
+            <div>
+                <img src="images/google-login.png" alt="" id="google">
+                <span>
+                    <a href="#">google hesabinizla giri</a>
+                </span>
+            </div>
+        </div>
+        <div id="alert">
+            <i class="fa-solid fa-circle-check" id="icon"></i>
+            <p id="alertText">
+                
+            </p>
+            <button id="colse" onclick="closeAlert()">
+                KAPAT
+            </button>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/9dfff1a9f8.js" crossorigin="anonymous"></script>
+</body>
+</html>
